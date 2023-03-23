@@ -1,0 +1,62 @@
+body{
+    background-color: #232323;
+    margin: 0;
+}
+h1{
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    line-height: 1.1;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+#rgb{
+    font-size: 200%;
+}
+#try{
+    font-size: inherit;
+    font-weight: inherit;
+    width: 20%;
+    display: inline-block;
+}
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+    background-color: orangered;
+    transition: backgroundColor .3s;
+    border-radius: 15%;
+}
+
+#container{
+    max-width: 660%;
+    width: 800px;
+    margin: 20px auto;
+}
+#div{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.easyHard{
+    color: white;
+    background-color: orangered;
+}
+button{
+    height: 100%;
+    background: none;
+    border: none;
+    font-size: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: orangered;
+    transition: background 0.4s;
+}
